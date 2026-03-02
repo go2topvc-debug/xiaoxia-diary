@@ -8,5 +8,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	site: 'https://go2topvc-debug.github.io',
 	base: '/xiaoxia-diary',
+	trailingSlash: 'always',
 	integrations: [mdx(), sitemap()],
 });
